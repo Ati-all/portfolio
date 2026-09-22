@@ -1,5 +1,12 @@
 {
   "entry": [],
-  "vibeCoding": [],
+  "vibeCoding": [
+    {"name":"ariting"},
+    {"name":"arit"},
+    {"name":"PyMa"},
+    {"name":"TDSs"},
+    {"name":"japan_master"},
+    {"name":"eng"}
+  ],
   "other": []
 }
