@@ -1,6 +1,27 @@
 {
   "career": [],
-  "certificates": [],
-  "awards": [],
+  "certificates": [
+    {
+      "name": "COS 3급 엔트리 자격증",
+      "issuer": "YBM",
+      "year": null
+    },
+    {
+      "name": "COS 2급 엔트리 자격증",
+      "issuer": "YBM",
+      "year": null
+    },
+    {
+      "name": "COS 1급 엔트리 자격증",
+      "issuer": "YBM",
+      "year": null
+    }
+  ],
+  "awards": [
+    {
+      "name": "2026년도 K-edu 창의력 경진대회 우수상",
+      "year": 2026
+    }
+  ],
   "activities": []
 }
