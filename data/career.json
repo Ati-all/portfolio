@@ -1,5 +1,11 @@
 {
-  "career": [],
+  "career": [
+    {
+      "name": "경북도청 코딩하루",
+      "description": "3년 이상 코딩 학습 중",
+      "period": "3년 이상"
+    }
+  ],
   "certificates": [
     {
       "name": "COS 3급 / Basic (Entry, 한글)",
