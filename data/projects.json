@@ -1,12 +1,12 @@
 {
   "entry": [],
   "vibeCoding": [
-    {"name":"ariting"},
-    {"name":"arit"},
-    {"name":"PyMa"},
-    {"name":"TDSs"},
-    {"name":"japan_master"},
-    {"name":"eng"}
+    {"name":"ariting","url":"https://github.com/Ati-all/ariting"},
+    {"name":"arit","url":"https://github.com/Ati-all/arit"},
+    {"name":"PyMa","url":"https://github.com/Ati-all/PyMa"},
+    {"name":"TDSs","url":"https://github.com/Ati-all/TDSs"},
+    {"name":"japan_master","url":"https://github.com/Ati-all/japan_master"},
+    {"name":"eng","url":"https://github.com/Ati-all/eng"}
   ],
   "other": []
 }
