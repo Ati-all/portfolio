@@ -2,19 +2,25 @@
   "career": [],
   "certificates": [
     {
-      "name": "COS 3급 엔트리 자격증",
+      "name": "COS 3급 / Basic (Entry, 한글)",
       "issuer": "YBM",
-      "year": null
+      "year": 2024,
+      "passedAt": "2024-10-08",
+      "certificateNumber": "24_E3_2390864"
     },
     {
-      "name": "COS 2급 엔트리 자격증",
+      "name": "COS 2급 / Intermediate (Scratch, 한글)",
       "issuer": "YBM",
-      "year": null
+      "year": 2025,
+      "passedAt": "2025-09-23",
+      "certificateNumber": "25_S2_2910420"
     },
     {
-      "name": "COS 1급 엔트리 자격증",
+      "name": "COS 1급 / Advanced (Scratch, 한글)",
       "issuer": "YBM",
-      "year": null
+      "year": 2026,
+      "passedAt": "2026-04-21",
+      "certificateNumber": "26_S1_2635126"
     }
   ],
   "awards": [
