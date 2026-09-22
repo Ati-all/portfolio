@@ -5,73 +5,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Ati-all</title>
   <meta name="description" content="개인 이력, 자격증, 수상 경력, Entry 프로젝트와 Vibe Coding 프로젝트를 소개하는 포트폴리오입니다.">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css?v=3">
 </head>
 <body>
   <header class="site-header">
     <nav class="container nav">
       <a class="brand" href="#home">PORTFOLIO</a>
       <div class="nav-links">
-        <a href="#about">About</a><a href="#career">Career</a><a href="#projects">Projects</a>
+        <a href="#home">Home</a><a href="#career">Career</a><a href="#projects">Projects</a>
         <a href="https://github.com/Ati-all" target="_blank" rel="noreferrer">GitHub</a>
       </div>
     </nav>
   </header>
+
   <main>
     <section id="home" class="hero">
       <div class="container hero-inner">
         <p class="eyebrow">DEVELOPER PORTFOLIO</p>
         <h1>안녕하세요,<br><span>저의 작업을 소개합니다.</span></h1>
-        <p class="hero-copy">이력과 경력부터 자격증, 수상 경력, Entry 프로젝트, Vibe Coding 프로젝트까지 한 곳에서 확인할 수 있는 포트폴리오입니다.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#career">경력 & 자격증 보기</a>
-          <a class="button secondary" href="#projects">프로젝트 보기</a>
-          <a class="button secondary" href="https://github.com/Ati-all" target="_blank" rel="noreferrer">GitHub 보기</a>
-        </div>
-      </div>
-    </section>
+        <p class="hero-copy">이력과 경력, 자격증, 수상 경력, Entry 프로젝트, Vibe Coding 프로젝트를 한 곳에서 확인할 수 있습니다.</p>
 
-    <section id="about" class="section">
-      <div class="container">
-        <p class="eyebrow">ABOUT</p><h2>나의 이력</h2>
-        <div class="grid two">
-          <article class="card"><h3>Profile</h3><p>자기소개, 학력, 관심 분야와 앞으로의 목표를 이곳에 정리합니다.</p></article>
-          <article class="card"><h3>Skills</h3><p>사용 기술과 도구를 프로젝트와 함께 확장할 수 있도록 구성합니다.</p></article>
+        <div class="home-career">
+          <div class="home-career-title">
+            <div>
+              <p class="eyebrow">CAREER & CERTIFICATES</p>
+              <h2>경력 & 자격증</h2>
+            </div>
+            <span class="live-badge">4 RECORDS</span>
+          </div>
+
+          <div class="career-table-wrap">
+            <table class="career-table">
+              <thead>
+                <tr><th>구분</th><th>내용</th><th>기관 / 대회</th><th>날짜</th><th>상세</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="type-badge certificate">자격증</span></td>
+                  <td><strong>COS 3급 / Basic</strong><small>Entry · 한글</small></td>
+                  <td>YBM</td><td>2024.10.08</td>
+                  <td><a class="file-button" href="./certificates/cos-3.html">보기 ↗</a></td>
+                </tr>
+                <tr>
+                  <td><span class="type-badge certificate">자격증</span></td>
+                  <td><strong>COS 2급 / Intermediate</strong><small>Scratch · 한글</small></td>
+                  <td>YBM</td><td>2025.09.23</td>
+                  <td><a class="file-button" href="./certificates/cos-2.html">보기 ↗</a></td>
+                </tr>
+                <tr>
+                  <td><span class="type-badge certificate">자격증</span></td>
+                  <td><strong>COS 1급 / Advanced</strong><small>Scratch · 한글</small></td>
+                  <td>YBM</td><td>2026.04.21</td>
+                  <td><a class="file-button" href="./certificates/cos-1.html">보기 ↗</a></td>
+                </tr>
+                <tr>
+                  <td><span class="type-badge award">수상</span></td>
+                  <td><strong>2026 K-edu 창의력 경진대회 우수상</strong><small>우수상</small></td>
+                  <td>K-edu</td><td>2026</td>
+                  <td><a class="file-button" href="./awards/k-edu-2026.html">보기 ↗</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-help">자격증과 수상 기록의 <strong>보기 ↗</strong>를 누르면 상세 페이지가 열립니다.</p>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">프로젝트 보기</a>
+          <a class="button secondary" href="https://github.com/Ati-all" target="_blank" rel="noreferrer">GitHub 보기</a>
         </div>
       </div>
     </section>
 
     <section id="career" class="section muted">
       <div class="container">
-        <p class="eyebrow">CAREER & CERTIFICATES</p>
-        <h2>경력 & 자격증</h2>
-        <p class="table-help">각 항목은 한 줄씩 표시됩니다. <strong>자격증</strong>과 <strong>수상</strong> 항목을 클릭하면 상세 파일을 확인할 수 있습니다.</p>
-        <div class="career-table-wrap">
-          <table class="career-table">
-            <thead><tr><th>구분</th><th>내용</th><th>기관 / 대회</th><th>취득·수상일</th><th>파일</th></tr></thead>
-            <tbody>
-              <tr>
-                <td><span class="type-badge certificate">자격증</span></td>
-                <td><strong>COS 3급 / Basic (Entry, 한글)</strong></td><td>YBM</td><td>2024.10.08</td>
-                <td><a class="file-button" href="./certificates/cos-3.html">자격증 보기 ↗</a></td>
-              </tr>
-              <tr>
-                <td><span class="type-badge certificate">자격증</span></td>
-                <td><strong>COS 2급 / Intermediate (Scratch, 한글)</strong></td><td>YBM</td><td>2025.09.23</td>
-                <td><a class="file-button" href="./certificates/cos-2.html">자격증 보기 ↗</a></td>
-              </tr>
-              <tr>
-                <td><span class="type-badge certificate">자격증</span></td>
-                <td><strong>COS 1급 / Advanced (Scratch, 한글)</strong></td><td>YBM</td><td>2026.04.21</td>
-                <td><a class="file-button" href="./certificates/cos-1.html">자격증 보기 ↗</a></td>
-              </tr>
-              <tr>
-                <td><span class="type-badge award">수상</span></td>
-                <td><strong>2026년도 K-edu 창의력 경진대회 우수상</strong></td><td>K-edu 창의력 경진대회</td><td>2026</td>
-                <td><a class="file-button" href="./awards/k-edu-2026.html">수상 보기 ↗</a></td>
-              </tr>
-            </tbody>
-          </table>
+        <p class="eyebrow">CAREER</p>
+        <h2>경력</h2>
+        <div class="grid two">
+          <article class="card"><h3>Career</h3><p>경력과 주요 업무를 기록합니다.</p></article>
+          <article class="card"><h3>Activities</h3><p>앞으로 활동 내역을 추가할 수 있습니다.</p></article>
         </div>
       </div>
     </section>
@@ -86,6 +98,7 @@
       </div>
     </section>
   </main>
+
   <footer class="footer"><div class="container footer-inner"><span>© 2026 Ati-all Portfolio</span><a href="https://github.com/Ati-all" target="_blank" rel="noreferrer">GitHub ↗</a></div></footer>
 </body>
 </html>
